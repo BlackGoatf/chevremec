@@ -1,0 +1,51 @@
+html{
+    background-color: rgb(35, 34, 34);
+}
+h1 {
+    color: white;
+    text-align: center;
+    background-color: black;
+    border-radius: 80px;
+    
+}
+h1:hover{
+    cursor: pointer;
+    color: rgb(235, 210, 176);
+}
+div{
+    
+    text-align: center;
+
+    
+}
+button{
+    margin-top: 50px;
+    font-size: larger;
+    box-shadow: 5px 10px 10px black;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(94, 171, 243);
+    scale: 1.1;
+}
+#button1:hover{
+    background-color: red;
+}
+img{
+    margin-top: 30px;
+    width: 30%;
+    border-radius: 60px;
+}
+img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+#commentaire1{
+    opacity:1;
+    
+}
+body{
+    overflow: auto;
+}
